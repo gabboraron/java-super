@@ -1,3 +1,17 @@
+this is the main class
+
+        public class CAnimatedSprite {
+             public CAnimatedSprite(String pFn, int pWidth, int pHeight) {
+             }
+        }
+this is the child class
+
+        public class CMainCharacter extends CAnimatedSprite {
+
+            //public void CMainCharacter:CAnimatedSprite(String pFn, int pWidth, int pHeight) {
+            //}
+        }
+
 You can define any arguments you need for your constructor, but it is necessary to call one constructor of the super class as the first line of your own constructor. This can be done using super() or super(arguments).
 
     public class CMainCharacter extends CAnimatedSprite {
